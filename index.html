@@ -30,9 +30,12 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
 								<li><a href="#Projects" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
+								<!--
 								<li><a href="#Fitness" id="fitness-link"><span class="icon solid fa-dumbbell">Fitness</span></a></li>
 								<li><a href="#Poker" id="poker-link"><span class="icon solid fa-mask">Poker</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Thoughts</span></a></li>
+							-->
+								<li><a href="#thoughts" id="about-link"><span class="icon solid fa-user">Thoughts</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-mask">About</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Resume/Contact</span></a></li>
 							</ul>
 						</nav>
@@ -60,9 +63,10 @@
 
 							<header>
 								<h2 class="alt">Hey! I'm Pran</h2>
-								<p> I'm a third year
-								Computer Science student at Northeastern University. </br>
-									I'm into Fitness, Coding, and Poker</p>
+								<p> Third Year Computer Science Student At Northeastern University
+									and Cyber Security Engineer Coop At
+								<a href="https://www.mitre.org">MITRE</a>
+								</br></p>
 							</header>
 
 							<footer>
@@ -138,11 +142,10 @@
 
 						</div>
 						<footer>
-								<a href="projects/projectDir.html">All Projects</a>
 						</footer>
 					</section>
 
-					<!-- Fitness -->
+					<!-- Fitness
 					<section id="Fitness" class="three">
 						<div class="container">
 						<header>
@@ -206,8 +209,9 @@
 						</footer>
 
 					</section>
+					-->
 
-					<!-- Poker -->
+					<!-- Poker
 					<section id="Poker" class="four">
 						<div class="container">
 						<header>
@@ -222,22 +226,45 @@
 						</footer>
 					</div>
 					</section>
-
-
-				<!-- Thoughts/Medium Feed -->
-					<section id="about" class="three">
-						<header>
+					-->
+					<section id="thoughts" class="three">
+						<div class="container">
+							<header>
 							<h2>Thoughts</h2>
 						</header>
 						<div id="medium-widget"></div>
-	    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-	    <script>MediumWidget.Init({renderTo: '#medium-widget',
+			<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+			<script>MediumWidget.Init({renderTo: '#medium-widget',
 			params: {"resource":"https://medium.com/@optimizedpran",
 			"postsPerLine":4,"limit":3,"picture":"big",
 			"fields":["author","claps","likes","publishAt"],
 			"ratio":"original"}})</script>
 				<p><a href="https://medium.com/@optimizedpran">All Posts</a></p>
+						</div>
 					</section>
+
+				<!-- About -->
+					<section id="about" class="three">
+						<div class="container">
+						<header>
+							<h2>About Me</h2>
+						</header>
+						<p>
+							I am originally from Dallas Texas but moved to Boston for school.
+							I am pursuing a BS in Computer Science and Cyber Operations with
+							A minor in Math At Northeastern University.
+							Outside of software; my interests include Poker, Power-Lifting,
+							and EDM. I tend to enjoy activities that require long term planning
+							and entail dealing with a certain amount of volatility. Poker
+							has and continues to train me to make rational and calculated
+							decisions under pressure. Power-lifting entails tracking data, and
+							calibrating nutrition and training accordingly.
+							I have written several fitness articles on medium which can be found
+							<a href="https://medium.com/@optimizedpran">here</a>. I share my results/data and give general lifting advice.
+						</p>
+					</div>
+					</section>
+
 
 				<!-- Contact -->
 					<section id="contact" class="four">
