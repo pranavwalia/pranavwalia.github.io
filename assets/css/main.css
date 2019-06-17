@@ -2641,7 +2641,18 @@ input, select, textarea {
 
 
 
-.logo-mitre { width: 4em; margin-top: -.05em; margin-bottom: -.3em; margin-left: -.4em}
+.logo-mitre { width: 4em; margin-top: -.05em; margin-bottom: -.5em; margin-left: -.4em}
 .logo-mitre-link { color: #0000FF; }
 .logo-mitre-link:active,
 .logo-mitre-link:hover { color: #ff6d6d; }
+
+
+.logo-UCSB { width: 2em; margin-top: -.05em; margin-bottom: -.1em; margin-left: 0em}
+.logo-UCSB-link { color: #0000FF; }
+.logo-UCSB-link:active,
+.logo-UCSB-link:hover { color: #ff6d6d; }
+
+.logo-fightDNA { width: 5em; margin-top: -.05em; margin-bottom: -.3em; margin-left: 0em}
+.logo-fightDNA-link { color: #c70000; }
+.logo-fightDNA-link:active,
+.logo-fightDNA-link:hover { color: #ff6d6d; }
