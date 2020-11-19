@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Hello World!
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: Binary Search Tree Mastery
+categories: [Algorithms,Tutorials]
+tags: [Binary Search Tree, Algorithms, Interview Prep]
 fullview: true
 comments: true
 ---
